@@ -11,8 +11,8 @@ resource "aws_vpc" "main_dev" {
   cidr_block = var.cidr
   tags = {
     Name = var.tag_name
-    owner = "vish"
-    dep = "hr"
+    owner = "shaby"
+    dep = "finance"
     env = var.env
   }
 }
